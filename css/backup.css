@@ -1,0 +1,168 @@
+/*Start Section*/
+#Title {
+    padding-bottom: 5rem;
+}
+
+.heading {
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.5;
+    font-size: 3rem;
+    padding: 2.9rem 0 1rem 0;
+    color: #484848;
+}
+
+
+.container-fluid {
+    padding: 3% 13% 0;
+}
+
+/* navigation bar */
+.navbar {
+    padding-bottom: 5rem;
+}
+
+.navbar-brand {
+    font-family: 'Montserrat';
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.nav-item {
+    padding: 0 18px;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+    font-family: 'Open Sans';
+}
+
+.shop-button {
+    background-color: #7AC7E6;
+    margin: 5% 0 5% 0;
+}
+
+    .shop-button:active {
+        color: #FFDB58;
+    }
+
+.button_name {
+    text-decoration: none;
+    color: #484848;
+}
+
+.title_image {
+    height: 450px;
+    width: 478px;
+}
+
+/* Title Media*/
+@media only screen and (max-width: 1080px) {
+    #Title {
+        text-align: center;
+    }
+
+    .nav-link {
+        font-size: 1rem;
+    }
+
+    .heading {
+        font-size: 2.5rem;
+    }
+
+    .shop-button {
+        margin-top: 3%;
+        font-size: 16px;
+    }
+
+    .title_image {
+        height: 350px;
+        width: 378px;
+    }
+
+    .navbar {
+        padding-bottom: 6%;
+    }
+}
+
+
+.sampple{
+  margin:0 auto;
+}
+
+
+/* footer */
+#Footer {
+    background-color: grey;
+}
+
+.line {
+    border: 5px solid;
+    border-color: #484848;
+    margin: 0;
+}
+
+.ft-Title {
+    color: white;
+    text-decoration: none;
+}
+
+.ft-text {
+    color: white;
+    text-decoration: none;
+}
+
+.ft-box {
+    text-align: center;
+    background: grey;
+    padding: 3% 15% 0;
+}
+
+.ft-icon {
+    color: white;
+    margin-left: 6px;
+}
+
+.copyright-box {
+    text-align: center;
+    background: grey;
+    padding: 0.5%;
+}
+
+.copyright .ft-text .ft-title {
+    font-size: 0.7rem;
+}
+
+.searchbutton {
+    background-color: #FFDB58;
+}
+
+@media (max-width: 1028px) {
+    .ft-box {
+        padding: 5% 10% 1%;
+        font-size: 0.7rem;
+    }
+
+    .copyright, .ft-text {
+        font-size: 0.6rem;
+    }
+
+    .ft-title {
+        font-size: 0.7rem;
+        margin-bottom: 0;
+    }
+
+    .col-ft {
+        margin-bottom: 0.4rem;
+    }
+}
+
+.set1{
+  background-color: gray;
+  height: 100%;
+  width:100%;
+}
+
+.acc{
+    padding: 7% 0 7% 0;
+    text-align: left;
+}

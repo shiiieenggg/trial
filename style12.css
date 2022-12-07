@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Solway:wght@800&display=swap');
+
+h1 {
+    text-align: center;
+}
+
+body{
+  text-align: center;
+    padding: 0% 0% 0%;
+    font-family: "Montserrat", sans-serif;
+    background: url(images/bgby.png);
+}
+
+.container11{
+  opacity: 0.8;
+  margin: auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    max-width: 800px;
+    width: 100%;
+    background: #fff;
+    padding: 40px 30px;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+    
+  }
+
+.forms{
+    height: 100%;
+    width: 100%;
+    font-size: 24px;
+    font-weight: 500;
+    color: #333;
+    margin-top: 30px;
+  }
+
+  .forms .form-content .title:before{
+    content: '';
+    left: 0;
+    bottom: 0;
+    height: 3px;
+    width: 25px;
+    background: #6495ED;
+  }
+  .forms .signup-form  .title:before{
+    width: 20px;
+  }
+  .forms .form-content .input-boxes{
+    margin-top: 30px;
+  }
+  .forms .form-content .input-box{
+    display: flex;
+    align-items: center;
+    height: 50px;
+    width: 100%;
+    margin: 10px 0;
+  }
+  .form-content .input-box input{
+    height: 100%;
+    width: 100%;
+    outline: none;
+    border: none;
+    padding: 0 30px;
+    font-size: 16px;
+    font-weight: 500;
+    border-bottom: 2px solid rgba(0,0,0,0.2);
+    transition: all 0.3s ease;
+  }
+  .form-content .input-box input:focus,
+  .form-content .input-box input:valid{
+    border-color: #6495ED;
+  }
+  .form-content .input-box i{
+    color: #6495ED;
+    font-size: 17px;
+  }
+ .form-content .text{
+    font-size: 14px;
+    font-weight: 500;
+    color: #333;
+  }
+  .forms .form-content .text a{
+    text-decoration: none;
+    color: #6495ED;
+  }
+
+.btn-submit{
+  padding: 5px 30px;
+  background-color: #6495ED;
+  border-radius: 5%;
+  border: none;
+  color: #ffffff;
+}
